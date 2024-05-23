@@ -11,7 +11,7 @@ public static class ProjectsEndpoints {
 
   public static RouteGroupBuilder MapProjectsEndpoints(this WebApplication app) {
 
-    var group = app.MapGroup("projects");
+    var group = app.MapGroup("projects").WithParameterValidation();
     
     // GET /projects
     group.MapGet("/", () => projects);
@@ -38,8 +38,7 @@ public static class ProjectsEndpoints {
       projects.Add(project);
 
       return Results.CreatedAtRoute(GetProjectEndpointName, new { id = project.Id }, project);
-    })
-    .WithParameterValidation();
+    });
 
     // PUT /projects
     group.MapPut("/{id}", (int id, UpdateProjectContract UpdatedProject) => {
