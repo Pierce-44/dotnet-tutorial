@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BKxoAqmg22nVtyuQIVw9R7eXmxma28UDtqc/bS0kwD5C0g4mzA6DXAFf88edLxzEsm/eHPSGr/wjZT6g2k3ldw==",
+  "dgSpecHash": "v+PwOTl+ly0/TqmmtZWMFpg5e6sbDu7n1dajPPPtXo9cJu1f2eCSy+HpJ7WTy/e60QF6QXojUtN4svZ1Viiz7Q==",
   "success": true,
   "projectFilePath": "/home/pierce/PageSuite/PH/portfolioV2Api/Portfolio.Api/Portfolio.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/pierce/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/pierce/.nuget/packages/minimalapis.extensions/0.11.0/minimalapis.extensions.0.11.0.nupkg.sha512",
+    "/home/pierce/.nuget/packages/minivalidation/0.8.0/minivalidation.0.8.0.nupkg.sha512"
+  ],
   "logs": []
 }

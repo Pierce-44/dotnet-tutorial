@@ -1,6 +1,8 @@
+using Projects.Api.Endpoints;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapProjectsEndpoints();
 
 app.Run();
