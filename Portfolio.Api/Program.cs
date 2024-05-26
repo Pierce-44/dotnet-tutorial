@@ -5,4 +5,6 @@ var app = builder.Build();
 
 app.MapProjectsEndpoints();
 
+// commit
+
 app.Run();
